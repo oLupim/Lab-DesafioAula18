@@ -1,2 +1,2 @@
-# Lab-DesafioAula18
-Desafio usando Herança, Polimorfismo, Encapsulamento e Abstração
+# Desafio-LPOO
+Desafio-LPOO da aula de LAB - ULBRA TORRES RS
