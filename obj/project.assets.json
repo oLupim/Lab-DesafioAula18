@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thelinkergu\\Documents\\GustavoMLupim\\LAB\\Desafio-LPOO-main\\Desafio-LPOO.csproj",
-      "projectName": "Desafio-LPOO",
-      "projectPath": "C:\\Users\\thelinkergu\\Documents\\GustavoMLupim\\LAB\\Desafio-LPOO-main\\Desafio-LPOO.csproj",
+      "projectUniqueName": "C:\\Users\\thelinkergu\\Documents\\GustavoMLupim\\LAB\\Aula18\\Aula18.csproj",
+      "projectName": "Aula18",
+      "projectPath": "C:\\Users\\thelinkergu\\Documents\\GustavoMLupim\\LAB\\Aula18\\Aula18.csproj",
       "packagesPath": "C:\\Users\\thelinkergu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thelinkergu\\Documents\\GustavoMLupim\\LAB\\Desafio-LPOO-main\\obj\\",
+      "outputPath": "C:\\Users\\thelinkergu\\Documents\\GustavoMLupim\\LAB\\Aula18\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thelinkergu\\AppData\\Roaming\\NuGet\\NuGet.Config"

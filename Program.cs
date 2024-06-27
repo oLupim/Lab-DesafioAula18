@@ -1,13 +1,37 @@
-﻿Autor autor1 = new Autor("João Silva", "Brasil");
-autor1.MostrarInfo();
+﻿
 
-Livro livro1 = new Livro("Aprendendo C#", autor1, 50);
-livro1.MostrarInfo();
+Carro c1 = new Carro();
+c1.mostrarVelocidade(100);
 
-Livro livro2 = new Livro("Avançando em C#", autor1, 100);
-livro2.MostrarInfo();
+Moto m1 = new Moto();
+m1.mostrarVelocidade(150);
 
-livro2.AplicarDesconto(10);
-livro2.MostrarInfo();
-livro2.AplicarDesconto(5);
-livro2.MostrarInfo();
+//criando Arrays
+//int[] notas = new int[5];
+
+// notas[0] = 90;
+// notas[1] = 85;
+// notas[2] = 88;
+// notas[3] = 92;
+// notas[4] = 95;
+
+//acessando e imprimindo as notas dos alunos
+// for (int i = 0; i < notas.Length; i++)
+// {
+//     Console.WriteLine($"Notas do Aluno: {i+1} = {notas[i]}");
+// }
+
+List<Veiculo> veiculos= new List<Veiculo>();
+
+veiculos.Add(c1);
+veiculos.Add(m1);
+
+//veiculos.Remove(c1);
+
+foreach(var veiculo in veiculos)
+{
+    veiculo.Acelerar();
+    veiculo.ExibeVelocidade();
+    veiculo.Frear();
+    veiculo.ExibeVelocidade();
+}
